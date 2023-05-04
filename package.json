@@ -2,9 +2,9 @@
   "name": "xenyria.js",
   "version": "1.0.2",
   "description": "🔌 Barebones Wrapper for the Xenyria API",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "module": "index.mjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
   "scripts": {
     "build": "tsup",
     "watch": "tsup --watch",
