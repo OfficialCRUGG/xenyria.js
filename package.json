@@ -1,6 +1,6 @@
 {
   "name": "xenyria.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🔌 Barebones Wrapper for the Xenyria API",
   "main": "index.js",
   "types": "index.d.ts",
