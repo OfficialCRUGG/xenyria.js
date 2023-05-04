@@ -3,5 +3,6 @@ export default {
   format: ["cjs", "esm"],
   outDir: "dist",
   sourcemap: true,
-  minify: true,
+  minify: false,
+  dts: true,
 };
