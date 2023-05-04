@@ -1,0 +1,40 @@
+{
+  "name": "xenyria.js",
+  "version": "1.0.0",
+  "description": "🔌 Barebones Wrapper for the Xenyria API",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "module": "index.mjs",
+  "scripts": {
+    "build": "tsup",
+    "watch": "tsup --watch",
+    "test": "jest",
+    "release": "standard-version",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "minecraft",
+    "xenyria",
+    "xenyria-api",
+    "api-wrapper"
+  ],
+  "author": "OfficialCRUGG <me@crg.sh>",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.8",
+    "standard-version": "^9.5.0",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4",
+    "xenyria-api-types": "^0.4.0"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.1.5"
+  }
+}
