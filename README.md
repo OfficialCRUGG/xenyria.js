@@ -17,13 +17,9 @@ import { Xenyria } from "xenyria.js";
 
 const xenyria = new Xenyria("YOUR_TOKEN");
 
-const player = await xenyria.player.fetch({
-  username: "CRUGG",
-});
+const player = await xenyria.player.fetch("CRUGG");
 
-const versionData = await xenyria.paintsquad.versionData({
-  version: "2.0.9.0",
-});
+const versionData = await xenyria.paintsquad.versionData();
 ```
 
 ## Links
