@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/OfficialCRUGG/xenyria.js/compare/v1.0.3...v1.1.0) (2023-05-05)
+
+
+### Features
+
+* error throwing for invalid token ([0de9cb1](https://github.com/OfficialCRUGG/xenyria.js/commit/0de9cb1857a1df92674c7b8a70976c5138503cba))
+
 ### [1.0.3](https://github.com/OfficialCRUGG/xenyria.js/compare/v1.0.2...v1.0.3) (2023-05-04)
 
 
