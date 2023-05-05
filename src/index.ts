@@ -35,6 +35,8 @@ export class Xenyria {
       },
     });
     const json = await response.json();
+    if (!json.success && json.message && json.message === "Key is invalid")
+      throw new Error("Invalid token");
     return json;
   }
 
